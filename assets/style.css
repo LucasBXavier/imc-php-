@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(70deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+h1{
+    margin-top: 12px;
+    text-align: center;
+    color: white;
+}
+
+.calculo{
+    height: 15rem;
+    border-radius: 35px;
+    width: 25rem;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr; /* Uma única coluna de largura igual */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background-color: rgb(11, 5, 117);
+}
+
+.item{
+    margin-top: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+form{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input{
+    width: auto;
+    padding: auto;
+    text-align: center;
+    background-color: #eee;
+    border: none;
+    font-size: 1rem;
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
+
+.cx{
+    border-radius: 15px;
+
+}
+
+.btn{
+    margin-left: 90px;
+    margin-top: 15px;
+    justify-content: center;
+    background: #5E5DF0;
+    border-radius: 999px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+}
+
+span{
+    text-align: center;
+}
+
+p{
+    color: white;
+}
